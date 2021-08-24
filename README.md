@@ -2,7 +2,7 @@
 Cliente/Servidor para envio de tramas con verificacion de errores
 
 Si se desea compilar el servidor debido a que maneja hilos se debe compilar de la siguiente manera:
-cc servidor.c -o server -pthread
+cc servidor.c -o server -lpthread
 Al correr el programa se debe especificar como argumento un puerto.
 
 Se puede compilar el cliente de la siguiente manera:
